@@ -1,0 +1,63 @@
+footer {
+    background: #dadada;
+
+}
+footer h2 {
+    font-family: 'MADE-Dillan',sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #15847D;
+    font-size: 32px;
+    letter-spacing: .02em;
+}
+footer ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; 
+}
+footer li {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+/* .icons_list {
+    background-color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 5px;
+} */
+.contact {
+    padding: 16px;
+}
+
+.icons_list {
+    text-decoration: none;
+    color:hsl(175, 100%, 32%);
+}
+@media (min-width: 977px) {
+    footer h2 {
+        text-align: center;
+    }
+    .contact {
+        /* display: flex;
+        gap: 2rem; */
+        max-width: 90%;
+        min-width: 90%;
+        margin: auto;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+}
+
+.email {
+  color: #FF1154;
+}
+
+.facebook {
+  color: #5C94E1;
+}
+ 
+

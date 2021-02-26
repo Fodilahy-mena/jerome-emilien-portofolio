@@ -1,0 +1,23 @@
+{
+  "name": "jerome-emilien-portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fodilahy-mena/jerome-emilien-portofolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fodilahy-mena/jerome-emilien-portofolio/issues"
+  },
+  "homepage": "https://github.com/Fodilahy-mena/jerome-emilien-portofolio#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
