@@ -3,47 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Jerome Emilien</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    
-    <header>
-        
+    <header class="body_header">
         <input class="open_menu" type="checkbox" id="menu_checkbox">
-        <h1>Je</h1>
+        <h1>
+            <a href="/">
+                Jerome Emilien 
+            </a>
+        </h1>
         <label for="menu_checkbox" class="icon_menu">
-            <!-- <span class="a11y">Open the menu</span> -->
         </label>
         <nav class="navigation">
-            <!-- <label for="menu_checkbox" class="icon_menu skip"> -->
-                <!-- <span class="a11y">Site menu</span> -->
-            <!-- </label> -->
             <ul class="navigation__list">
-                <li class="navigation__item active">
-                    <a class="navigation__link navigation__link--home" href="#home">Home</a>
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--pricing" href="#pricing">Pricing</a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--product" href="#product">Product</a>
                 </li>
     
                 <li class="navigation__item">
-                    <a class="navigation__link navigation__link--about" href="#about">About</a>
+                    <a class="navigation__link navigation__link--about" href="#about">About Us</a>
                 </li>
     
                 <li class="navigation__item">
-                    <a class="navigation__link navigation__link--design" href="#projects">Projects</a>
+                    <a class="navigation__link navigation__link--careers" href="#careers">Careers</a>
                 </li>
     
                 <li class="navigation__item">
-                    <a class="navigation__link navigation__link--contact" href="#contact">Contact</a>
+                    <a class="navigation__link navigation__link--community" href="#community">Community</a>
                 </li>
             </ul>
         </nav>
     </header>
+    
     <main>
         <header class="masthead">
             <div class="summary">
-                <h2>Jerome Emilien</h2>
-                <h3>A front-end developer</h3>
+                <h2>Hi, I'm Jerome</h2>
+                <p>A front-end developer</p>
             </div>
         </header>
         <section class="section__details" id="about">
@@ -241,6 +244,6 @@
             </ul>
         </div>
     </footer>
-    
+    <script src="./index.js"></script>
 </body>
 </html>

@@ -4,14 +4,11 @@ body > header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25rem;
-    color: teal;
-    background-color: white;
     z-index: 1;
     position: relative;
-    border-radius: 0 0 85% 85% / 10%;
-
+    padding: 2rem 1rem;
 }
+
 body > header h1 {
     font-family: 'Crimson' Poppins;
     font-style: normal;
@@ -19,36 +16,66 @@ body > header h1 {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    border: 2px solid teal;
+    border: 2px solid white;
     box-sizing: border-box;
     padding: 8px;
-    border-radius: 50%;
-    /* background-color: red; */
+    color: white;
+    border-radius: 5px;
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
 }
 
+.open {
+    background-color: white;
+}
+.open h1 {
+    border: 2px solid #242D52;
+    a {
+        color: #242D52;
+    }
+}
+
+.body_header + .open_menu:checked {
+    background-color: white;
+}
+
+
 @media (min-width: 977px) {
-    body > header > h1 {
+    .open {
+        background-color: unset;
+    }
+    body > header.open > h1 {
         max-width: fit-content;
         min-width: fit-content;
         margin-left: 3.5%;
         border: 2px solid white;
+        a {
         color: white;
+        }
     }
     body > header {
+        margin-left: 0;
+        margin-right: 0;
         background-color: unset;
     }
 }
 
+
 .masthead {
-    background: -webkit-linear-gradient(bottom right, #D9DAD9, #020202);
-    background: -moz-linear-gradient(bottom right, #D9DAD9, #020202);
-    background: linear-gradient(to top left, #D9DAD9, #020202);
+    top: -120px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 120px;
+    background-color: #242D52;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 40%;
     padding-block-start: 150px;
     padding-block-end: 150px;
-    top: -115px;
     position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
     /* border-radius: 0 0 85% 85% / 10%; */
 }

@@ -9,6 +9,15 @@ abbr[title] {
     cursor: inherit;
     text-decoration: none;
   }
+
+  *, *:before, *:after {
+    outline: 0;
+    box-sizing: border-box;
+    border: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
 .summary {
     text-align: center;
     max-width: 90%;
